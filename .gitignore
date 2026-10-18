@@ -12,3 +12,8 @@ dist/
 # Territory workbook source: only the committed sample is used at build time
 Data/*
 !Data/NigeriaWasteMap.xlsx
+
+# Dev-only GIS tooling (GeoJSON in public/ is what the app uses)
+branch360-wasteconnect-ng/scripts/ne_extract/
+branch360-wasteconnect-ng/scripts/ne_extract2/
+branch360-wasteconnect-ng/scripts/*.zip
