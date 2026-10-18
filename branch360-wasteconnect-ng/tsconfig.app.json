@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "es2023",
+    "lib": ["ES2023", "DOM", "DOM.Iterable"],
+    "module": "esnext",
+    "types": ["vite/client"],
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "src/pages/InvestPage.tsx",
+    "src/pages/RaiseCapitalPage.tsx",
+    "src/pages/InfoPlaceholderPage.tsx",
+    "src/components/invest",
+    "src/components/raise",
+    "src/components/HomeCtaSections.tsx",
+    "src/components/SiteFooter.tsx",
+    "src/components/MarketingPageTitle.tsx",
+    "src/components/ContactFormSuccess.tsx",
+    "src/components/RecaptchaWidget.tsx",
+    "src/content",
+    "src/hooks/useContactFormWithRecaptcha.ts",
+    "src/lib/contactFormSubmit.ts",
+    "src/lib/verifyRecaptcha.ts"
+  ]
+}

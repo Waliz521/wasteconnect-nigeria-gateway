@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "cd branch360-wasteconnect-ng && npm install",
+  "buildCommand": "cd branch360-wasteconnect-ng && npm run build:all",
+  "outputDirectory": "branch360-wasteconnect-ng/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}

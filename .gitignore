@@ -1,0 +1,14 @@
+PROJECT.md
+
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+.DS_Store
+*.log
+
+# Territory workbook source: only the committed sample is used at build time
+Data/*
+!Data/NigeriaWasteMap.xlsx
